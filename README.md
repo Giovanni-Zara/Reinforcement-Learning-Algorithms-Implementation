@@ -23,7 +23,7 @@ The projects progress from classical tabular methods and optimal control to adva
 
 ### 1. Policy Iteration (FrozenLake)
 <p align="center">
-  <img src="https://gymnasium.farama.org/_images/frozen_lake.gif" alt="Frozen Lake Environment" width="600"/>
+  <img src="https://gymnasium.farama.org/_images/frozen_lake.gif" alt="Frozen Lake Environment" width="500"/>
 </p>
 Implementation of the Policy Iteration algorithm on a modified version of the **FrozenLake** Gymnasium environment. 
 * **Environment:** Custom `FrozenLake` grid world.
@@ -32,7 +32,7 @@ Implementation of the Policy Iteration algorithm on a modified version of the **
 
 ### 2. Iterative Linear Quadratic Regulator (iLQR)
 <p align="center">
-  <img src="https://gymnasium.farama.org/_images/pendulum.gif" alt="Pendulum Environment" width="600"/>
+  <img src="https://gymnasium.farama.org/_images/pendulum.gif" alt="Pendulum Environment" width="500"/>
 </p>
 Implementation of iLQR for solving the **Pendulum** environment. unlike standard RL, this is a trajectory optimization method that utilizes knowledge of the system dynamics.
 * **Dynamics:** Implemented the specific equations of motion for the pendulum: 
@@ -47,7 +47,7 @@ Implementation of iLQR for solving the **Pendulum** environment. unlike standard
 
 ### 1. SARSA(λ) (Taxi-v3)
 <p align="center">
-  <img src="https://gymnasium.farama.org/_images/taxi.gif" alt="Taxi Environment" width="600"/>
+  <img src="https://gymnasium.farama.org/_images/taxi.gif" alt="Taxi Environment" width="500"/>
 </p>
 Implementation of the on-policy TD control algorithm with eligibility traces.
 * **Environment:** Taxi-v3 (Discrete state space).
@@ -56,7 +56,7 @@ Implementation of the on-policy TD control algorithm with eligibility traces.
 
 ### 2. Linear Q-Learning with RBF (Mountain Car)
 <p align="center">
-  <img src="https://gymnasium.farama.org/_images/mountain_car.gif" alt="Mountain Car Environment" width="600"/>
+  <img src="https://gymnasium.farama.org/_images/mountain_car.gif" alt="Mountain Car Environment" width="500"/>
 </p>
 Solving a continuous state space problem using Linear Function Approximation.
 * **Environment:** MountainCar-v0 (Underpowered car requiring momentum).
@@ -69,7 +69,7 @@ Solving a continuous state space problem using Linear Function Approximation.
 **Focus:** Deep Reinforcement Learning & Continuous Control
 
 <p align="center">
-  <img src="https://gymnasium.farama.org/_images/car_racing.gif" alt="Car Racing Environment" width="600"/>
+  <img src="https://gymnasium.farama.org/_images/car_racing.gif" alt="Car Racing Environment" width="500"/>
 </p>
 
 A complete implementation of **TRPO** to solve the challenging **CarRacing-v2** environment from pixel inputs. This project was built using **PyTorch**.
