@@ -81,7 +81,7 @@ The projects progress from classical tabular methods and optimal control to adva
       </ul>
     </td>
     <td width="30%">
-      <img src="./taxi.gif" alt="Taxi Environment" width="100%">
+      <img src="https://gymnasium.farama.org/_images/taxi.gif" alt="Taxi Environment" width="100%">
     </td>
   </tr>
 </table>
