@@ -148,7 +148,21 @@ The projects progress from classical tabular methods and optimal control to adva
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/RL-Algorithms-Implementation.git](https://github.com/your-username/RL-Algorithms-Implementation.git)
+   git clone [https://github.com/GiovanniZara/RL-Algorithms-Implementation.git](https://github.com/GiovanniZara/RL-Algorithms-Implementation.git)
    cd RL-Algorithms-Implementation
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   cd <ur desired folder>
+   pip install -r requirements.txt
+   ```
+
+3. **Run specific assignments:**
+   *Example: To evaluate the TRPO agent:*
+   ```bash
+   cd car_racing
+   python main.py --evaluate
+   ```
