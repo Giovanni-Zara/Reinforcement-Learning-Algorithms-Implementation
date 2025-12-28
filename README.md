@@ -156,8 +156,7 @@ The projects progress from classical tabular methods and optimal control to adva
 
 2. **Install dependencies:**
    ```bash
-   cd <ur desired folder>
-   pip install -r requirements.txt
+   pip install -r requirements_total.txt
    ```
 
 3. **Run specific assignments:**
