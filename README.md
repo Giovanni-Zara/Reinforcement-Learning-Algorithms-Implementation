@@ -22,12 +22,18 @@ The projects progress from classical tabular methods and optimal control to adva
 **Focus:** Dynamic Programming & Optimal Control
 
 ### 1. Policy Iteration (FrozenLake)
+<p align="center">
+  <img src="https://gymnasium.farama.org/_images/frozen_lake.gif" alt="Frozen Lake Environment" width="600"/>
+</p>
 Implementation of the Policy Iteration algorithm on a modified version of the **FrozenLake** Gymnasium environment. 
 * **Environment:** Custom `FrozenLake` grid world.
 * **Method:** Iterative policy evaluation and policy improvement until convergence.
 * **Outcome:** The agent learns the optimal path across a slippery grid to reach the goal without falling into holes.
 
 ### 2. Iterative Linear Quadratic Regulator (iLQR)
+<p align="center">
+  <img src="https://gymnasium.farama.org/_images/pendulum.gif" alt="Pendulum Environment" width="600"/>
+</p>
 Implementation of iLQR for solving the **Pendulum** environment. unlike standard RL, this is a trajectory optimization method that utilizes knowledge of the system dynamics.
 * **Dynamics:** Implemented the specific equations of motion for the pendulum: 
     $$\dot{\theta}_{t+1} = \dot{\theta}_{t} + (\frac{3g}{2l}\sin \theta + \frac{3}{ml^2}u)dt$$
@@ -40,12 +46,18 @@ Implementation of iLQR for solving the **Pendulum** environment. unlike standard
 **Focus:** Temporal Difference Learning & Feature Engineering
 
 ### 1. SARSA(λ) (Taxi-v3)
+<p align="center">
+  <img src="https://gymnasium.farama.org/_images/taxi.gif" alt="Taxi Environment" width="600"/>
+</p>
 Implementation of the on-policy TD control algorithm with eligibility traces.
 * **Environment:** Taxi-v3 (Discrete state space).
 * **Key Concept:** `Eligibility Traces` (decaying memory of past states) to speed up convergence compared to 1-step SARSA.
 * **Result:** Efficient navigation for passenger pickup and drop-off.
 
 ### 2. Linear Q-Learning with RBF (Mountain Car)
+<p align="center">
+  <img src="https://gymnasium.farama.org/_images/mountain_car.gif" alt="Mountain Car Environment" width="600"/>
+</p>
 Solving a continuous state space problem using Linear Function Approximation.
 * **Environment:** MountainCar-v0 (Underpowered car requiring momentum).
 * **Feature Extraction:** Implemented a **Radial Basis Function (RBF)** encoder to project the 2D state space (position, velocity) into a higher-dimensional feature space.
